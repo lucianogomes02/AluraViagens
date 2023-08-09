@@ -15,10 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mc7-Lb-GpU" userLabel="Header View">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <rect key="frame" x="-293" y="0.0" width="1000" height="250"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ip-nH-R1K">
-                            <rect key="frame" x="20" y="0.0" width="144" height="170"/>
+                            <rect key="frame" x="316" y="70" width="144" height="32.333333333333343"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -26,11 +26,10 @@
                     </subviews>
                     <color key="backgroundColor" red="0.1176470588" green="0.23137254900000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstItem="8Ip-nH-R1K" firstAttribute="leading" secondItem="Mc7-Lb-GpU" secondAttribute="leading" constant="20" id="Lo4-2v-tlA"/>
-                        <constraint firstAttribute="bottom" secondItem="8Ip-nH-R1K" secondAttribute="bottom" constant="80" id="dAS-nf-ZHE"/>
+                        <constraint firstItem="8Ip-nH-R1K" firstAttribute="top" secondItem="Mc7-Lb-GpU" secondAttribute="top" constant="70" id="GXB-dG-Twq"/>
+                        <constraint firstAttribute="width" constant="1000" id="HD7-vK-Mi3"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1000" id="NvD-wc-kNK"/>
                         <constraint firstAttribute="height" constant="250" id="geK-du-7bQ"/>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="rvn-1S-ri3"/>
-                        <constraint firstItem="8Ip-nH-R1K" firstAttribute="top" secondItem="Mc7-Lb-GpU" secondAttribute="top" id="uCk-Bt-ONm"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vHE-z4-c6j" userLabel="Banner View">
@@ -86,11 +85,11 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="Mc7-Lb-GpU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3aq-XV-hvZ"/>
+                <constraint firstItem="Mc7-Lb-GpU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3nV-vL-Qu5"/>
                 <constraint firstItem="vHE-z4-c6j" firstAttribute="centerX" secondItem="Mc7-Lb-GpU" secondAttribute="centerX" id="5Nk-Lo-ygq"/>
+                <constraint firstItem="8Ip-nH-R1K" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="23" id="GXj-g4-GGz"/>
                 <constraint firstItem="Mc7-Lb-GpU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="N9X-ZQ-HsU"/>
                 <constraint firstItem="vHE-z4-c6j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="XU2-sy-sQq"/>
-                <constraint firstItem="Mc7-Lb-GpU" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ekC-L7-Iz3"/>
                 <constraint firstItem="vHE-z4-c6j" firstAttribute="bottom" secondItem="Mc7-Lb-GpU" secondAttribute="bottom" constant="30" id="rPL-3e-Zy2"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
