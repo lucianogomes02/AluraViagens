@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA119A2D2A8310C3009CA519 /* CabecalhoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA119A2C2A8310C3009CA519 /* CabecalhoView.xib */; };
 		BA119A2F2A831488009CA519 /* CabecalhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA119A2E2A831488009CA519 /* CabecalhoView.swift */; };
+		BA119A382A8351E2009CA519 /* ViagemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA119A362A8351E2009CA519 /* ViagemTableViewCell.swift */; };
+		BA119A392A8351E2009CA519 /* ViagemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA119A372A8351E2009CA519 /* ViagemTableViewCell.xib */; };
 		BAAE28322A82048D009067C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE28312A82048D009067C8 /* AppDelegate.swift */; };
 		BAAE28342A82048D009067C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE28332A82048D009067C8 /* SceneDelegate.swift */; };
 		BAAE28362A82048D009067C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE28352A82048D009067C8 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		BA119A2C2A8310C3009CA519 /* CabecalhoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CabecalhoView.xib; sourceTree = "<group>"; };
 		BA119A2E2A831488009CA519 /* CabecalhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabecalhoView.swift; sourceTree = "<group>"; };
+		BA119A362A8351E2009CA519 /* ViagemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemTableViewCell.swift; sourceTree = "<group>"; };
+		BA119A372A8351E2009CA519 /* ViagemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViagemTableViewCell.xib; sourceTree = "<group>"; };
 		BAAE282E2A82048D009067C8 /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAE28312A82048D009067C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAE28332A82048D009067C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 		BA119A322A8336D5009CA519 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA119A352A8351BB009CA519 /* Viagem */,
 				BA119A332A8336FB009CA519 /* Cabecalho */,
 				BAAE28352A82048D009067C8 /* ViewController.swift */,
 				BAAE28372A82048D009067C8 /* Main.storyboard */,
@@ -81,6 +86,15 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA119A352A8351BB009CA519 /* Viagem */ = {
+			isa = PBXGroup;
+			children = (
+				BA119A362A8351E2009CA519 /* ViagemTableViewCell.swift */,
+				BA119A372A8351E2009CA519 /* ViagemTableViewCell.xib */,
+			);
+			path = Viagem;
 			sourceTree = "<group>";
 		};
 		BAAE28252A82048D009067C8 = {
@@ -175,6 +189,7 @@
 				BAAE283B2A82048E009067C8 /* Assets.xcassets in Resources */,
 				BAAE28392A82048D009067C8 /* Main.storyboard in Resources */,
 				BA119A2D2A8310C3009CA519 /* CabecalhoView.xib in Resources */,
+				BA119A392A8351E2009CA519 /* ViagemTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAE28362A82048D009067C8 /* ViewController.swift in Sources */,
+				BA119A382A8351E2009CA519 /* ViagemTableViewCell.swift in Sources */,
 				BAAE28322A82048D009067C8 /* AppDelegate.swift in Sources */,
 				BAAE28342A82048D009067C8 /* SceneDelegate.swift in Sources */,
 				BA119A2F2A831488009CA519 /* CabecalhoView.swift in Sources */,
