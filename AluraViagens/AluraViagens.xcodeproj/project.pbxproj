@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA119A2D2A8310C3009CA519 /* CabecalhoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA119A2C2A8310C3009CA519 /* CabecalhoView.xib */; };
+		BA119A2F2A831488009CA519 /* CabecalhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA119A2E2A831488009CA519 /* CabecalhoView.swift */; };
 		BAAE28322A82048D009067C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE28312A82048D009067C8 /* AppDelegate.swift */; };
 		BAAE28342A82048D009067C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE28332A82048D009067C8 /* SceneDelegate.swift */; };
 		BAAE28362A82048D009067C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE28352A82048D009067C8 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA119A2C2A8310C3009CA519 /* CabecalhoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CabecalhoView.xib; sourceTree = "<group>"; };
+		BA119A2E2A831488009CA519 /* CabecalhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabecalhoView.swift; sourceTree = "<group>"; };
 		BAAE282E2A82048D009067C8 /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAE28312A82048D009067C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAE28332A82048D009067C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				BAAE283A2A82048E009067C8 /* Assets.xcassets */,
 				BAAE283C2A82048E009067C8 /* LaunchScreen.storyboard */,
 				BAAE283F2A82048E009067C8 /* Info.plist */,
+				BA119A2C2A8310C3009CA519 /* CabecalhoView.xib */,
+				BA119A2E2A831488009CA519 /* CabecalhoView.swift */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				BAAE283E2A82048E009067C8 /* LaunchScreen.storyboard in Resources */,
 				BAAE283B2A82048E009067C8 /* Assets.xcassets in Resources */,
 				BAAE28392A82048D009067C8 /* Main.storyboard in Resources */,
+				BA119A2D2A8310C3009CA519 /* CabecalhoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				BAAE28362A82048D009067C8 /* ViewController.swift in Sources */,
 				BAAE28322A82048D009067C8 /* AppDelegate.swift in Sources */,
 				BAAE28342A82048D009067C8 /* SceneDelegate.swift in Sources */,
+				BA119A2F2A831488009CA519 /* CabecalhoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

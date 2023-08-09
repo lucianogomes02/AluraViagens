@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viagens.dataSource = self
+        viagens.delegate = self
     }
 
 }
@@ -29,6 +30,18 @@ extension ViewController: UITableViewDataSource {
         celula.textLabel?.text = "viagem \(indexPath.row)"
         
         return celula
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let cabecalhoView = Bundle.main.loadNibNamed("CabecalhoView", owner: self, options: nil)?.first as? CabecalhoView
+
+        return cabecalhoView
+    }
+
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 300
     }
 }
 
