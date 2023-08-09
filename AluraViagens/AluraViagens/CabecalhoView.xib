@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,18 +14,74 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ip-nH-R1K">
-                    <rect key="frame" x="37" y="59" width="144" height="33"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mc7-Lb-GpU" userLabel="Header View">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ip-nH-R1K">
+                            <rect key="frame" x="29" y="67" width="144" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1176470588" green="0.23137254900000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="geK-du-7bQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vHE-z4-c6j" userLabel="Banner View">
+                    <rect key="frame" x="20" y="150" width="374" height="130"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9HQ-4E-rub">
+                            <rect key="frame" x="0.0" y="0.0" width="199.33333333333334" height="130"/>
+                            <color key="backgroundColor" red="0.31764705882352939" green="0.70196078431372544" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="haQ-8r-0na" userLabel="Banner Imagem">
+                            <rect key="frame" x="198" y="0.0" width="176" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="176" id="p3p-hv-5Dp"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="72j-Xe-Zwe"/>
+                        <constraint firstAttribute="bottom" secondItem="9HQ-4E-rub" secondAttribute="bottom" id="FTZ-YO-fXV"/>
+                        <constraint firstAttribute="height" constant="130" id="Jc7-Ib-9YG"/>
+                        <constraint firstItem="haQ-8r-0na" firstAttribute="width" secondItem="vHE-z4-c6j" secondAttribute="width" multiplier="0.470588" id="Km1-pa-Ag4"/>
+                        <constraint firstItem="9HQ-4E-rub" firstAttribute="width" secondItem="vHE-z4-c6j" secondAttribute="width" multiplier="0.533333" id="NDF-9X-4Yo"/>
+                        <constraint firstItem="9HQ-4E-rub" firstAttribute="top" secondItem="vHE-z4-c6j" secondAttribute="top" id="NeV-zx-QtN"/>
+                        <constraint firstAttribute="bottom" secondItem="haQ-8r-0na" secondAttribute="bottom" id="PZ3-f5-h7Y"/>
+                        <constraint firstAttribute="trailing" secondItem="haQ-8r-0na" secondAttribute="trailing" id="cIY-Sj-F70"/>
+                        <constraint firstItem="haQ-8r-0na" firstAttribute="top" secondItem="vHE-z4-c6j" secondAttribute="top" id="czQ-ZO-Stn"/>
+                        <constraint firstItem="9HQ-4E-rub" firstAttribute="leading" secondItem="vHE-z4-c6j" secondAttribute="leading" id="khs-cY-qvK"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" red="0.11764705882352941" green="0.23137254901960785" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Mc7-Lb-GpU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3aq-XV-hvZ"/>
+                <constraint firstItem="Mc7-Lb-GpU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="N9X-ZQ-HsU"/>
+                <constraint firstItem="Mc7-Lb-GpU" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ekC-L7-Iz3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vHE-z4-c6j" secondAttribute="trailing" constant="20" id="fiF-GC-VXY"/>
+                <constraint firstItem="vHE-z4-c6j" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="odb-eo-4Aq"/>
+                <constraint firstItem="vHE-z4-c6j" firstAttribute="bottom" secondItem="Mc7-Lb-GpU" secondAttribute="bottom" constant="30" id="rPL-3e-Zy2"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="132" y="-11"/>
+            <connections>
+                <outlet property="banner" destination="vHE-z4-c6j" id="bdo-0k-3Is"/>
+                <outlet property="cabecalho" destination="Mc7-Lb-GpU" id="Orz-h4-iri"/>
+                <outlet property="imagem" destination="haQ-8r-0na" id="UKz-O9-WyP"/>
+                <outlet property="titulo" destination="8Ip-nH-R1K" id="bSC-Df-BTj"/>
+            </connections>
+            <point key="canvasLocation" x="131.29770992366412" y="-11.267605633802818"/>
         </view>
     </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
