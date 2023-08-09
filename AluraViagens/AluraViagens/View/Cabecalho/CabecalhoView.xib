@@ -17,9 +17,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mc7-Lb-GpU" userLabel="Header View">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ip-nH-R1K">
-                            <rect key="frame" x="29" y="67" width="144" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ip-nH-R1K">
+                            <rect key="frame" x="20" y="0.0" width="144" height="170"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -27,7 +26,11 @@
                     </subviews>
                     <color key="backgroundColor" red="0.1176470588" green="0.23137254900000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
+                        <constraint firstItem="8Ip-nH-R1K" firstAttribute="leading" secondItem="Mc7-Lb-GpU" secondAttribute="leading" constant="20" id="Lo4-2v-tlA"/>
+                        <constraint firstAttribute="bottom" secondItem="8Ip-nH-R1K" secondAttribute="bottom" constant="80" id="dAS-nf-ZHE"/>
                         <constraint firstAttribute="height" constant="250" id="geK-du-7bQ"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="rvn-1S-ri3"/>
+                        <constraint firstItem="8Ip-nH-R1K" firstAttribute="top" secondItem="Mc7-Lb-GpU" secondAttribute="top" id="uCk-Bt-ONm"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vHE-z4-c6j" userLabel="Banner View">
@@ -92,7 +95,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="banner" destination="vHE-z4-c6j" id="bdo-0k-3Is"/>
+                <outlet property="banner" destination="vHE-z4-c6j" id="63q-Rx-zte"/>
                 <outlet property="cabecalho" destination="Mc7-Lb-GpU" id="Orz-h4-iri"/>
                 <outlet property="imagem" destination="haQ-8r-0na" id="UKz-O9-WyP"/>
                 <outlet property="titulo" destination="8Ip-nH-R1K" id="bSC-Df-BTj"/>

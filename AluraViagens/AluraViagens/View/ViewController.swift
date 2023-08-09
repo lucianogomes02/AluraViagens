@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         viagens.dataSource = self
         viagens.delegate = self
         
-        view.backgroundColor = UIColor(red: 30/255, green: 59/255, blue: 119/255, alpha: 1)
+        view.backgroundColor = UIColor(red: 30.0/255, green: 59.0/255, blue: 119.0/255, alpha: 1)
     }
 
 }
@@ -38,6 +38,7 @@ extension ViewController: UITableViewDataSource {
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let cabecalhoView = Bundle.main.loadNibNamed("CabecalhoView", owner: self, options: nil)?.first as? CabecalhoView
+        cabecalhoView?.configurarView()
 
         return cabecalhoView
     }
