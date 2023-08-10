@@ -137,7 +137,7 @@
                 <outlet property="statusCancelamentoViagemLabel" destination="nzo-8G-NMZ" id="5V5-1q-PA5"/>
                 <outlet property="subtituloViagemLabel" destination="K4y-dy-K1l" id="KjD-tG-mC5"/>
                 <outlet property="tituloViagemLabel" destination="Viz-xo-tc8" id="d51-Db-Exj"/>
-                <outlet property="viagemImage" destination="ygH-7x-6Pc" id="aOE-yj-xdE"/>
+                <outlet property="viagemImage" destination="ESF-tn-yvC" id="2cC-PO-iah"/>
             </connections>
             <point key="canvasLocation" x="200" y="-9.1549295774647899"/>
         </tableViewCell>
