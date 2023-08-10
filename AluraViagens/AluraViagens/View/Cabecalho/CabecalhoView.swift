@@ -23,7 +23,7 @@ class CabecalhoView: UIView {
         banner.layer.cornerRadius = 12.0
         banner.layer.masksToBounds = true
         
-        cabecalho.layer.cornerRadius = 500
+        cabecalho.layer.cornerRadius = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone ? 500 : 150
         cabecalho.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
     }
     
