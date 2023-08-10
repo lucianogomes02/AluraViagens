@@ -83,7 +83,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancelamento Grátis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzo-8G-NMZ">
-                                <rect key="frame" x="10" y="349.33333333333331" width="248" height="17"/>
+                                <rect key="frame" x="10" y="343.33333333333331" width="248" height="17"/>
                                 <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="12"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -113,7 +113,7 @@
                             <constraint firstItem="TLr-F8-lg9" firstAttribute="leading" secondItem="ygH-7x-6Pc" secondAttribute="leading" constant="10" id="grd-RQ-4uj"/>
                             <constraint firstAttribute="trailing" secondItem="Viz-xo-tc8" secondAttribute="trailing" constant="10" id="h5K-89-Mqt"/>
                             <constraint firstItem="NYq-3e-RIZ" firstAttribute="top" secondItem="pvL-gW-IAl" secondAttribute="bottom" constant="8" symbolic="YES" id="lAL-ro-aC8"/>
-                            <constraint firstItem="nzo-8G-NMZ" firstAttribute="top" secondItem="Pcc-l9-SkB" secondAttribute="bottom" constant="7" id="nmP-iu-BIu"/>
+                            <constraint firstItem="nzo-8G-NMZ" firstAttribute="top" secondItem="Pcc-l9-SkB" secondAttribute="bottom" constant="0.99999999999994316" id="nmP-iu-BIu"/>
                             <constraint firstItem="NYq-3e-RIZ" firstAttribute="centerY" secondItem="TLr-F8-lg9" secondAttribute="centerY" id="rc9-i7-E4B"/>
                             <constraint firstAttribute="trailing" secondItem="ESF-tn-yvC" secondAttribute="trailing" id="rnU-iX-x4D"/>
                             <constraint firstItem="NYq-3e-RIZ" firstAttribute="top" secondItem="pvL-gW-IAl" secondAttribute="bottom" constant="8" id="xXw-iD-syM"/>
